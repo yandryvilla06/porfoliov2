@@ -34,7 +34,7 @@
     </div>
 
     <div
-      class="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-6 gap-2 mt-6 sm:mt-16"
+      class="grid grid-cols-5 lg:grid-cols-6  md:grid-cols-5 gap-2 mt-6 sm:mt-16"
     >
       <div class="col-start-2 col-span-3 sm:col-start-2">
         <div class="text-3xl font-extrabold text-end sm:text-5xl mb-5">
@@ -56,8 +56,8 @@
           </p>
         </div>
       </div>
-      <div class="sm:col-end-6 sm:col-span-1 col-end-2 col-span-3">
-        <img src="../assets/img/portada1.jpeg" class="w-full sm:w-9/12" />
+      <div class="lg:col-end-6 lg:col-span-1 md:col-start-2 md:col-span-3  col-start-2 col-span-3">
+        <img src="../assets/img/portada1.jpeg" class="w-full lg:w-8/12 sm:w-6/12" />
       </div>
     </div>
   </div>
