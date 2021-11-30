@@ -67,10 +67,12 @@ module.exports = {
     animation: {
       none: "none",
       spin: "spin 1s linear infinite",
-      ping: "ping 1s cubic-bezier(0, 0, 0.2, 1) infinite",
+      ping: "ping 3s cubic-bezier(0, 0, 0.2, 1) ",
       pulse: "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
       bounce: "bounce 1s infinite",
+      
     },
+    
     backdropBlur: (theme) => theme("blur"),
     backdropBrightness: (theme) => theme("brightness"),
     backdropContrast: (theme) => theme("contrast"),
@@ -474,7 +476,9 @@ module.exports = {
         "75%, 100%": {
           transform: "scale(2)",
           opacity: "0",
+          
         },
+        
       },
       pulse: {
         "50%": {
