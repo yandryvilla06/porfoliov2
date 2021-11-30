@@ -34,7 +34,7 @@
     </div>
 
     <div
-      class="grid grid-cols-5 lg:grid-cols-6  md:grid-cols-5 gap-2 mt-6 sm:mt-16"
+      class="grid grid-cols-5 lg:grid-cols-6 md:grid-cols-5 gap-2 mt-6 sm:mt-16"
     >
       <div class="col-start-2 col-span-3 sm:col-start-2">
         <div class="text-3xl font-extrabold text-end sm:text-5xl mb-5">
@@ -56,77 +56,81 @@
           </p>
         </div>
       </div>
-      <div class="lg:col-end-6 lg:col-span-1 md:col-start-2 md:col-span-3  col-start-2 col-span-3">
-        <img src="../assets/img/portada1.jpeg" class="w-full lg:w-8/12 sm:w-6/12 " />
+      <div
+        class="lg:col-end-6 lg:col-span-1 md:col-start-2 md:col-span-3 col-start-2 col-span-3"
+      >
+        <img
+          src="../assets/img/portada1.jpeg"
+          class="w-full lg:w-8/12 sm:w-6/12"
+        />
       </div>
     </div>
 
-     <div class="text-3xl font-extrabold text-center sm:text-5xl mb-5 mt-12 py-6 ">
-          <span
-            class="bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-yellow-500"
-          >
-            Languages
-          </span>
-      </div>  
-      
-    <div class="grid grid-cols-5 md:grid-cols-9   md:gri text-black gap-3 mb-6 ">
-        <div class="col-start-2 md:col-start-4 col-span-1">
-            <img
+    <div
+      class="text-3xl font-extrabold text-center sm:text-5xl mb-5 mt-12 py-6"
+    >
+      <span
+        class="bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-yellow-500"
+      >
+        Languages
+      </span>
+    </div>
+
+    <div class="grid grid-cols-5 md:grid-cols-9 md:gri text-black gap-3 mb-6">
+      <div class="col-start-2 md:col-start-4 col-span-1">
+        <img
           src="../assets/languages/css.svg"
-          class="w-full lg:w-2/12 md:w-full lg:w-full sm:w-11/12 animate-ping "
-            />
-        </div>
-        <div class="col-start-3 md:col-start-5 col-span-1">
-            <img
+          class="w-full lg:w-2/12 md:w-full lg:w-full sm:w-11/12 animate-ping"
+        />
+      </div>
+      <div class="col-start-3 md:col-start-5 col-span-1">
+        <img
           src="../assets/languages/html.svg"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
-            />
-        </div>
-        <div class="col-start-4 md:col-start-6 col-span-1">
-            <img
+        />
+      </div>
+      <div class="col-start-4 md:col-start-6 col-span-1">
+        <img
           src="../assets/languages/javascript.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
-            />
-        </div>
-          <div class="col-start-2 md:col-start-4 col-span-1">
-            <img
+        />
+      </div>
+      <div class="col-start-2 md:col-start-4 col-span-1">
+        <img
           src="../assets/languages/linux.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
-            />
-        </div>
-        <div class="col-start-3 md:col-start-5 col-span-1">
-            <img
+        />
+      </div>
+      <div class="col-start-3 md:col-start-5 col-span-1">
+        <img
           src="../assets/languages/mysql.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
-            />
-        </div>
-        <div class="col-start-4 md:col-start-6 col-span-1">
-            <img
+        />
+      </div>
+      <div class="col-start-4 md:col-start-6 col-span-1">
+        <img
           src="../assets/languages/php.svg"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
-            />
-        </div>
-          <div class="col-start-2  md:col-start-4 col-span-1">
-            <img
+        />
+      </div>
+      <div class="col-start-2 md:col-start-4 col-span-1">
+        <img
           src="../assets/languages/python.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
-            />
-        </div>
-        <div class="col-start-3 md:col-start-5  md:col-start-5 col-span-1">
-            <img
+        />
+      </div>
+      <div class="col-start-3 md:col-start-5 md:col-start-5 col-span-1">
+        <img
           src="../assets/languages/sql.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
-            />
-        </div>
-        <div class="col-start-4 md:col-start-6 col-span-1">
-            <img
+        />
+      </div>
+      <div class="col-start-4 md:col-start-6 col-span-1">
+        <img
           src="../assets/languages/java.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
-            />
-        </div>
-        
-        
-    
+        />
+      </div>
     </div>
   </div>
 </template>
