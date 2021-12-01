@@ -1,5 +1,5 @@
 <template>
-  <nav class="grid grid-cols-2 gap-12">
+  <nav class="grid grid-cols-2 gap-12 mr-12">
     <div class="block inline-flex items-center">
       <img src="../assets/logos/Y.png" class="w-5/12 sm:w-3/12" />
     </div>
@@ -10,7 +10,7 @@
       <router-link class="hover:text-red-500" to="/contact"
         >Contacto</router-link
       >
-      <router-link class="hover:text-red-500" to="/">Proyectos</router-link>
+      
     </div>
   </nav>
 </template>

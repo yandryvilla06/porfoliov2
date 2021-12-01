@@ -78,73 +78,57 @@
     </div>
 
     <div class="grid grid-cols-5 md:grid-cols-9 md:gri text-black gap-3 mb-8">
-      <div
-        class="col-start-2 md:col-start-4 col-span-1 hover:bg-black rounded-full"
-      >
+      <div class="col-start-2 md:col-start-4 col-span-1 k rounded-full">
         <img
           src="../assets/languages/css.svg"
-          class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12 animate-ping"
+          class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
         />
       </div>
-      <div
-        class="col-start-3 md:col-start-5 col-span-1 hover:bg-black rounded-full"
-      >
+      <div class="col-start-3 md:col-start-5 col-span-1 rounded-full">
         <img
           src="../assets/languages/html.svg"
-          class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12 animate-ping"
+          class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
         />
       </div>
-      <div
-        class="col-start-4 md:col-start-6 col-span-1 hover:bg-black rounded-full"
-      >
+      <div class="col-start-4 md:col-start-6 col-span-1 rounded-full">
         <img
           src="../assets/languages/javascript.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
         />
       </div>
-      <div
-        class="col-start-2 md:col-start-4 col-span-1 hover:bg-black rounded-full"
-      >
+      <div class="col-start-2 md:col-start-4 col-span-1 rounded-full">
         <img
           src="../assets/languages/linux.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
         />
       </div>
-      <div
-        class="col-start-3 md:col-start-5 col-span-1 hover:bg-black rounded-full"
-      >
+      <div class="col-start-3 md:col-start-5 col-span-1 rounded-full">
         <img
           src="../assets/languages/mysql.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
         />
       </div>
-      <div
-        class="col-start-4 md:col-start-6 col-span-1 hover:bg-black rounded-full"
-      >
+      <div class="col-start-4 md:col-start-6 col-span-1 rounded-full">
         <img
           src="../assets/languages/php.svg"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
         />
       </div>
-      <div
-        class="col-start-2 md:col-start-4 col-span-1 hover:bg-black rounded-full"
-      >
+      <div class="col-start-2 md:col-start-4 col-span-1 rounded-full">
         <img
           src="../assets/languages/python.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
         />
       </div>
       <div
-        class="col-start-3 md:col-start-5 md:col-start-5 col-span-1 hover:bg-black rounded-full"
+        class="col-start-3 md:col-start-5 md:col-start-5 col-span-1 rounded-full"
       >
         <img
           src="../assets/languages/sql.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
         />
       </div>
-      <div
-        class="col-start-4 md:col-start-6 col-span-1 hover:bg-black rounded-full"
-      >
+      <div class="col-start-4 md:col-start-6 col-span-1 rounded-full">
         <img
           src="../assets/languages/java.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
@@ -182,6 +166,37 @@
         <div class="text-yellow-300"><h1>Responsable</h1></div>
       </div>
     </div>
+    <!-- Proyectos -->
+    <div
+      class="text-3xl mt-12 font-extrabold text-center sm:text-5xl sm:mb-5 sm:mt-16"
+    >
+      <span
+        class="bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-yellow-500"
+      >
+        Proyectos
+      </span>
+    </div>
+     <div class="p-10">  
+    <!--Card 1-->
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <a href="http://yandryvillamo.com/#/">
+      <img class="w-full" src="../assets/img/foodie.png" alt="Foodie">
+      </a>
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Foodie</div>
+        <p class="text-gray-700 text-base">
+          Es un aplicación de Delivery orientada al reparto de comida y gestión . Incorpora un CRM de ventas  para los restaurantes inscritos y un menu de los productos ofertadas en la app 
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-red-400 rounded-full px-3 py-1 text-sm font-semibold text-white-700 mr-2 mb-2">Php</span>
+        <span class="inline-block bg-red-400 rounded-full px-3 py-1 text-sm font-semibold text-white-700 mr-2 mb-2">Html & Css</span>
+        <span class="inline-block bg-red-400 rounded-full px-3 py-1 text-sm font-semibold text-white-700 mr-2 mb-2">Mysql</span>
+      </div>
+    </div>
+  </div>
+
+
 
     <!--Footer-->
     <div class="grid">
@@ -192,6 +207,7 @@
         <h1>Madrid 2021</h1>
       </div>
     </div>
+    
   </div>
 </template>
 

@@ -2,35 +2,20 @@
   <div id="contact">
     <navbar />
     <div class="grid grid-cols-1 sm:grid-cols-6">
-      <div class="text-5xl col-start-2 col-span-3" id="titulo">
-        <!-- <a>¿</a><a class="azul">T</a><a>E</a> <a>G</a><a>U</a><a>S</a><a>T</a><a>A</a><a>R</a><a>I</a><a>A</a>
-            
-            <a>C</a><a>O</a><a>N</a><a>O</a><a>C</a><a>E</a><a>R</a><a>M</a><a>E</a><a>?</a>
-            
-             -->
+      <div class="flex flex-col items-center text-5xl col-start-2 col-span-3" id="titulo">
+      
         <a href="https://fontmeme.com/es/fuente-de-super-mario/"
           ><img
             src="https://fontmeme.com/permalink/211201/f0c24097023ab2967939fd3f8a22772b.png"
             alt="fuente-de-super-mario"
             border="0"
         /></a>
-        <div class=" flex flex-col   sm:items-start items-center flex-wrapper">
-        <div class="flex flex-row content-center justify-items-center">
-          <div>
-            <img src="https://img.icons8.com/stickers/200/000000/instagram-new--v1.png" class="w-full"/>
-          </div>
-        <div>
-          <h1 class="mt-12 items-center content-center">Instagram</h1>
-        </div>
-          </div>
-        <div><h1 class="mt-12">Instagram</h1></div>
-        <div><h1 class="mt-12">Instagram</h1></div>
-
-        </div>
-        
+          
+            <img src="../assets/logos/qr-code.png" class=" lg:w-5/12 md:w-4/12 w-6/12 mt-6  flex items-center justify-content-center" />
+          
       </div>
 
-      <div class=" ">
+      <div class="">
         <lottie-player
           src="https://assets5.lottiefiles.com/packages/lf20_62cbhpxc.json"
           background="transparent"
@@ -41,7 +26,17 @@
         ></lottie-player>
       </div>
     </div>
+      <!--Footer-->
+    <div class="grid mt-12 py-12">
+      <div class="text-center font-mono font-bold text-black text-2xl">
+        <h1>Yandry <span>&#169;</span> Villagómez</h1>
+      </div>
+      <div class="text-center font-mono font-bold text-black text-2xl">
+        <h1>Madrid 2021</h1>
+      </div>
+    </div>
   </div>
+  
 </template>
 
 <script>
@@ -69,6 +64,4 @@ export default {
 .azul {
   color: #009cda;
 }
-
-
 </style>
