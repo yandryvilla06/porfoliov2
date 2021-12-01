@@ -6,9 +6,11 @@
     <div
       class="flex justify-end items-center gap-5 mx-8 text-xl sm:text-2xl font-mono"
     >
-      <a class="hover:text-red-500">Home</a>
-      <a class="hover:text-red-500">Contacto</a>
-      <a class="hover:text-red-500">Proyectos</a>
+      <router-link class="hover:text-red-500" to="/">Home</router-link>
+      <router-link class="hover:text-red-500" to="/contact"
+        >Contacto</router-link
+      >
+      <router-link class="hover:text-red-500" to="/">Proyectos</router-link>
     </div>
   </nav>
 </template>
