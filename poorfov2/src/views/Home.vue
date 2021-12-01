@@ -65,79 +65,122 @@
         />
       </div>
     </div>
-
+ 
+    <!-- LENGUAJES DE PROGRAMACION -->
     <div
       class="text-3xl font-extrabold text-center sm:text-5xl mb-5 mt-12 py-6"
     >
       <span
         class="bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-yellow-500"
       >
-        Languages
+        Lenguajes
       </span>
     </div>
 
-    <div class="grid grid-cols-5 md:grid-cols-9 md:gri text-black gap-3 mb-6">
-      <div class="col-start-2 md:col-start-4 col-span-1">
+    <div class="grid grid-cols-5 md:grid-cols-9 md:gri text-black gap-3 mb-8">
+      <div class="col-start-2 md:col-start-4 col-span-1 hover:bg-black rounded-full">
         <img
           src="../assets/languages/css.svg"
-          class="w-full lg:w-2/12 md:w-full lg:w-full sm:w-11/12 animate-ping"
+          class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12 animate-ping"
         />
       </div>
-      <div class="col-start-3 md:col-start-5 col-span-1">
+      <div class="col-start-3 md:col-start-5 col-span-1 hover:bg-black rounded-full">
         <img
           src="../assets/languages/html.svg"
-          class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
+          class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12 animate-ping"
         />
       </div>
-      <div class="col-start-4 md:col-start-6 col-span-1">
+      <div class="col-start-4 md:col-start-6 col-span-1 hover:bg-black rounded-full">
         <img
           src="../assets/languages/javascript.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
         />
       </div>
-      <div class="col-start-2 md:col-start-4 col-span-1">
+      <div class="col-start-2 md:col-start-4 col-span-1 hover:bg-black rounded-full">
         <img
           src="../assets/languages/linux.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
         />
       </div>
-      <div class="col-start-3 md:col-start-5 col-span-1">
+      <div class="col-start-3 md:col-start-5 col-span-1 hover:bg-black rounded-full">
         <img
           src="../assets/languages/mysql.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
         />
       </div>
-      <div class="col-start-4 md:col-start-6 col-span-1">
+      <div class="col-start-4 md:col-start-6 col-span-1 hover:bg-black rounded-full">
         <img
           src="../assets/languages/php.svg"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
         />
       </div>
-      <div class="col-start-2 md:col-start-4 col-span-1">
+      <div class="col-start-2 md:col-start-4 col-span-1 hover:bg-black rounded-full">
         <img
           src="../assets/languages/python.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
         />
       </div>
-      <div class="col-start-3 md:col-start-5 md:col-start-5 col-span-1">
+      <div class="col-start-3 md:col-start-5 md:col-start-5 col-span-1 hover:bg-black rounded-full">
         <img
           src="../assets/languages/sql.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
         />
       </div>
-      <div class="col-start-4 md:col-start-6 col-span-1">
+      <div class="col-start-4 md:col-start-6 col-span-1 hover:bg-black rounded-full">
         <img
           src="../assets/languages/java.png"
           class="w-full lg:rounded-full md:w-full lg:w-full sm:w-11/12"
         />
       </div>
     </div>
+   <!-- Habilidades -->
+   <div
+      class="text-3xl mt-12 font-extrabold text-center sm:text-5xl sm:mb-5   sm:mt-16 "
+    >
+      <span
+        class="bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-yellow-500"
+      >
+        Habilidades
+      </span>
+    </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 " >
+    <div>
+      <lottie-player
+      src="https://assets7.lottiefiles.com/private_files/lf30_kd6vmszk.json"
+      background="transparent"
+      speed="1"
+      style="width: 1500; height: 500px"
+      loop
+      autoplay
+    ></lottie-player>
+    </div>
+    <div class="flex flex-col items-center justify-center text-3xl sm:text-5xl mb-12 font-mono font-extrabold  gap-5">
+      <div class="text-red-500"><h1>Autodidacta</h1></div>
+      <div class="text-blue-600"><h1>Creativo</h1></div>
+      <div class="text-gray-600"><h1>Trabajador</h1></div>
+      <div class="text-yellow-300"><h1>Responsable</h1></div>
+    </div>
+  </div>
+  
+  <!--Footer-->
+  <div class="grid ">
+   <div class="text-center  font-mono font-bold text-black text-2xl"> 
+      <h1>Yandry <span>&#169;</span> Villagómez</h1>
+   </div>
+   <div class="text-center  font-mono font-bold text-black text-2xl">
+     <h1>Madrid 2021</h1>
+   </div>
+
+  </div>
+    
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Navbar from "@/components/Navbar.vue";
+import '@lottiefiles/lottie-player';
 
 export default {
   name: "Home",

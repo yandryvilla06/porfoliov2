@@ -3,7 +3,9 @@
     <div class="block inline-flex items-center">
       <img src="../assets/logos/Y.png" class="w-5/12 sm:w-3/12" />
     </div>
-    <div class="flex justify-end items-center gap-5 mx-8 text-xl font-mono">
+    <div
+      class="flex justify-end items-center gap-5 mx-8 text-xl sm:text-2xl font-mono"
+    >
       <a class="hover:text-red-500">Home</a>
       <a class="hover:text-red-500">Contacto</a>
       <a class="hover:text-red-500">Proyectos</a>
