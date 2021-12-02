@@ -10,7 +10,6 @@
       <router-link class="hover:text-red-500" to="/contact"
         >Contacto</router-link
       >
-      
     </div>
   </nav>
 </template>

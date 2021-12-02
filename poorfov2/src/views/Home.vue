@@ -176,27 +176,36 @@
         Proyectos
       </span>
     </div>
-     <div class="p-10">  
-    <!--Card 1-->
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-      <a href="http://yandryvillamo.com/#/">
-      <img class="w-full" src="../assets/img/foodie.png" alt="Foodie">
-      </a>
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Foodie</div>
-        <p class="text-gray-700 text-base">
-          Es un aplicación de Delivery orientada al reparto de comida y gestión . Incorpora un CRM de ventas  para los restaurantes inscritos y un menu de los productos ofertadas en la app 
-        </p>
-      </div>
-      <div class="px-6 pt-4 pb-2">
-        <span class="inline-block bg-red-400 rounded-full px-3 py-1 text-sm font-semibold text-white-700 mr-2 mb-2">Php</span>
-        <span class="inline-block bg-red-400 rounded-full px-3 py-1 text-sm font-semibold text-white-700 mr-2 mb-2">Html & Css</span>
-        <span class="inline-block bg-red-400 rounded-full px-3 py-1 text-sm font-semibold text-white-700 mr-2 mb-2">Mysql</span>
+    <div class="p-10">
+      <!--Card 1-->
+      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+        <a href="http://yandryvillamo.com/#/">
+          <img class="w-full" src="../assets/img/foodie.png" alt="Foodie" />
+        </a>
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Foodie</div>
+          <p class="text-gray-700 text-base">
+            Es un aplicación de Delivery orientada al reparto de comida y
+            gestión . Incorpora un CRM de ventas para los restaurantes inscritos
+            y un menu de los productos ofertadas en la app
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block bg-red-400 rounded-full px-3 py-1 text-sm font-semibold text-white-700 mr-2 mb-2"
+            >Php</span
+          >
+          <span
+            class="inline-block bg-red-400 rounded-full px-3 py-1 text-sm font-semibold text-white-700 mr-2 mb-2"
+            >Html & Css</span
+          >
+          <span
+            class="inline-block bg-red-400 rounded-full px-3 py-1 text-sm font-semibold text-white-700 mr-2 mb-2"
+            >Mysql</span
+          >
+        </div>
       </div>
     </div>
-  </div>
-
-
 
     <!--Footer-->
     <div class="grid">
@@ -207,7 +216,6 @@
         <h1>Madrid 2021</h1>
       </div>
     </div>
-    
   </div>
 </template>
 
